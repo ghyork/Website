@@ -8,7 +8,7 @@ University of Nevada, Reno
 Last Updated: `r Sys.Date()`
 <br>
 <br>
-```{r, echo=FALSE, fig.align='center', out.width='40%', fig.cap='Harrison York holding a hatchling Desert Tortoise'}
+```{r, echo=FALSE, fig.align='center', out.width='40%', fig.cap='Harrison York holding a hatchling *G. agassizii*'}
 knitr::include_graphics("Tort_Pics/IMG_5073.jpeg")
 ```
 
@@ -22,6 +22,6 @@ B.S. Natural Resources and Environmental Science, University of Kentucky 2024
 
 <br>
 <br>
-```{r, echo=FALSE, fig.align='center', out.width='65%', fig.cap='Adult *G. agassizii*'}
+```{r, echo=FALSE, fig.align='center', out.width='65%', fig.cap='Adult *G. agassizii* on the move'}
 knitr::include_graphics("Tort_Pics/IMG_5104.JPEG")
 ```
