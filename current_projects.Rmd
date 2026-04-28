@@ -28,7 +28,7 @@ Using camera trap data we calculated the the activity level of coyote and jackra
 
 <br>
 
-#### **The Evolutionary Capacity of the Mojave Desert Tortoise under future Climate Change and Development Pathways**
+#### **The Evolutionary Capacity of the Mojave Desert Tortoise under Future Climate Change and Development Pathways**
 
 In the face of anthropogenic change in natural areas across the globe, contemporary evolution and phenotypic plasticity have enabled numerous species and populations to respond to the changing demands of landscapes in a meaningful way. Though some of these adaptations may not be potent enough to completely offset the consequences of anthropogenic change, they may still provide resistance and additional time until management action can be taken to further reduce or prevent declines. However, many more species do not possess the life history or evolutionary capacity to respond to anthropogenic change rapidly enough to buffer the impending consequences of altered landscapes.
 
