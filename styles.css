@@ -28,3 +28,7 @@ body {
 .main-container {
   background-color: transparent;
 }
+.navbar-nav > li:first-child > a {
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
