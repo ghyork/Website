@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Current Projects</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">G. Harrison York</a>
+</li>
+<li>
+  <a href="current_projects.html">Current Projects</a>
+</li>
+<li>
+  <a href="past_work.html">Past Work</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Current Projects</h1>
+
+</div>
+
+
+<p><br> <br></p>
+<div class="figure" style="text-align: center">
+<img src="Tort_Pics/IMG_5133.JPEG" alt="Adult *G. agassizii* at a burrow site" width="75%" />
+<p class="caption">
+Adult <em>G. agassizii</em> at a burrow site
+</p>
+</div>
+<p><br> <br></p>
+<div
+id="forecasting-mojave-desert-tortoise-populations-through-2100-using-agent-based-modelling"
+class="section level4">
+<h4><strong>Forecasting Mojave Desert Tortoise Populations through 2100
+using Agent-Based Modelling</strong></h4>
+<p>Climate change, habitat loss, and fragmentation are forcing wildlife
+populations out of once suitable landscapes, causing local declines and
+extirpation events for a variety of species. The Mojave Desert Tortoise
+(<em>Gopherus agassizii</em>) is threatened by encroaching urban
+development and climate change throughout its range. Past efforts to
+predict the connectivity and viability of this species have not
+considered the impacts of a changing climate, the continued loss of
+buildable lands, and the permeability of anthropogenic barriers.</p>
+<p>This project uses agent-based modelling to forecast <em>G.
+agassizii</em> populations 77 years into the future, incorporating all
+relevant research to accurately parameterize the lives and risks to
+desert tortoises. We simulate populations in Clark County, NV under four
+Representative Concentration Pathways (RCPs) and their associated Shared
+Socioeconomic Pathways (SSPs) with varying permeability in anthropogenic
+barriers. We evaluate metrics of viability including adult population
+size, mortality, and birth rate and found large population declines in
+high emissions scenarios which were further exacerbated by impermeable
+barriers.</p>
+<p><br></p>
+</div>
+<div id="mojave-desert-tortoise-predator-prey-dynamics"
+class="section level4">
+<h4><strong>Mojave Desert Tortoise Predator-Prey Dynamics</strong></h4>
+<p>As the primary predator of adult Mojave Desert Tortoise, Coyote
+(<em>Canis latrans</em>) have long been suspected to exhibit prey
+switching behavior, in favor of tortoise prey, during periods drought
+periods when activity or abundance of their preferred prey, Black-tailed
+Jackrabbit (<em>Lepus californicus</em>), is reduced.</p>
+<p>This project combines telemetry data of Mojave Desert Tortoise from
+the Clark County Desert Conservation Program and camera trap datasets of
+Coyote and Black-tailed Jackrabbit from the U.S. Geological Survey
+(USGS) to better understand predator-prey dynamics in the Mojave desert.
+We investigate the relationship of coyote and jackrabbit activity in
+desert tortoise habitat to determine their influence on desert tortoise
+survival.</p>
+<p>Using camera trap data we calculated the the activity level of coyote
+and jackrabbit in spatial clusters throughout the Boulder City
+Conservation Easement (BCCE) and surrounding foothills. Coyote and
+jackrabbit activity levels were used in conjunction with recent
+precipitation, vegetation density, and proximity to roads and urban
+areas to predict the survival of desert tortoises from 2019-2026.</p>
+<p><br></p>
+</div>
+<div
+id="the-evolutionary-capacity-of-the-mojave-desert-tortoise-under-future-climate-change-and-development-pathways"
+class="section level4">
+<h4><strong>The Evolutionary Capacity of the Mojave Desert Tortoise
+under future Climate Change and Development Pathways</strong></h4>
+<p>In the face of anthropogenic change in natural areas across the
+globe, contemporary evolution and phenotypic plasticity have enabled
+numerous species and populations to respond to the changing demands of
+landscapes in a meaningful way. Though some of these adaptations may not
+be potent enough to completely offset the consequences of anthropogenic
+change, they may still provide resistance and additional time until
+management action can be taken to further reduce or prevent declines.
+However, many more species do not possess the life history or
+evolutionary capacity to respond to anthropogenic change rapidly enough
+to buffer the impending consequences of altered landscapes.</p>
+<p>The Mojave Desert Tortoise represents a difficult subject for
+studying evolutionary change. Due to the lengthiness of generation
+times, any adaptations the species incurs may not be observable over a
+human lifespan, and decidedly not over the course of a 5-10 year study.
+We use spatial agent-based modelling to simulate <em>G. agassizii</em>
+populations over a millennia to predict how gene flow may change under
+future fragmented conditions and, ultimately, predict the evolutionary
+capacity of the species.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

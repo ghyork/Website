@@ -1,0 +1,30 @@
+/* Background color for the whole page */
+body {
+  background-color: #EEDFCC;
+}
+
+/* Navbar background */
+.navbar {
+  background-color: #8B7D6B !important;
+  border-color: #FFFFFF !important;
+}
+
+/* Navbar text/links */
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF !important;
+}
+
+/* Active tab */
+.navbar-default .navbar-nav > .active > a {
+  background-color: #EEDFCC !important;
+  color: #8B7D6B !important;
+}
+
+/* Hover color */
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #EEDFCC !important;
+  color: #8B7D6B !important;
+}
+.main-container {
+  background-color: transparent;
+}

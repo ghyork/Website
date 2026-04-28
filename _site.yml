@@ -1,0 +1,17 @@
+name: "MDTPred-Prey"
+output_dir: docs
+exclude: ["Data", "R_Scripts", "Manuscript", "Environmental_Layers", "PredPrey.db", 'README']
+navbar:
+  left:
+    - text: "G. Harrison York"
+      href: index.html
+    - text: "Current Projects"
+      href: current_projects.html
+    - text: "Past Work"
+      href: past_work.html
+    - text: "Publications"
+      href: publications.html
+output:
+  html_document:
+    theme: flatly
+    css: styles.css

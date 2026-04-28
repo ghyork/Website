@@ -1,0 +1,35 @@
+---
+title: "Current Projects"
+output: html_document
+---
+<br>
+<br>
+
+```{r, echo=FALSE, fig.align='center', out.width='75%', fig.cap='Adult *G. agassizii* at a burrow site'}
+knitr::include_graphics("Tort_Pics/IMG_5133.JPEG")
+```
+<br>
+<br>
+
+#### **Forecasting Mojave Desert Tortoise Populations through 2100 using Agent-Based Modelling**
+Climate change, habitat loss, and fragmentation are forcing wildlife populations out of once suitable landscapes, causing local declines and extirpation events for a variety of species. The Mojave Desert Tortoise (*Gopherus agassizii*) is threatened by encroaching urban development and climate change throughout its range. Past efforts to predict the connectivity and viability of this species have not considered the impacts of a changing climate, the continued loss of buildable lands, and the permeability of anthropogenic barriers.
+
+This project uses agent-based modelling to forecast *G. agassizii* populations 77 years into the future, incorporating all relevant research to accurately parameterize the lives and risks to desert tortoises. We simulate populations in Clark County, NV under four Representative Concentration Pathways (RCPs) and their associated Shared Socioeconomic Pathways (SSPs) with varying permeability in anthropogenic barriers. We evaluate metrics of viability including adult population size, mortality, and birth rate and found large population declines in high emissions scenarios which were further exacerbated by impermeable barriers.
+
+<br>
+
+#### **Mojave Desert Tortoise Predator-Prey Dynamics**
+
+As the primary predator of adult Mojave Desert Tortoise, Coyote (*Canis latrans*) have long been suspected to exhibit prey switching behavior, in favor of tortoise prey, during periods drought periods when activity or abundance of their preferred prey, Black-tailed Jackrabbit (*Lepus californicus*), is reduced.
+
+This project combines telemetry data of Mojave Desert Tortoise from the Clark County Desert Conservation Program and camera trap datasets of Coyote and Black-tailed Jackrabbit from the U.S. Geological Survey (USGS) to better understand predator-prey dynamics in the Mojave desert. We investigate the relationship of coyote and jackrabbit activity in desert tortoise habitat to determine their influence on desert tortoise survival.
+
+Using camera trap data we calculated the the activity level of coyote and jackrabbit in spatial clusters throughout the Boulder City Conservation Easement (BCCE) and surrounding foothills. Coyote and jackrabbit activity levels were used in conjunction with recent precipitation, vegetation density, and proximity to roads and urban areas to predict the survival of desert tortoises from 2019-2026.
+
+<br>
+
+#### **The Evolutionary Capacity of the Mojave Desert Tortoise under future Climate Change and Development Pathways**
+
+In the face of anthropogenic change in natural areas across the globe, contemporary evolution and phenotypic plasticity have enabled numerous species and populations to respond to the changing demands of landscapes in a meaningful way. Though some of these adaptations may not be potent enough to completely offset the consequences of anthropogenic change, they may still provide resistance and additional time until management action can be taken to further reduce or prevent declines. However, many more species do not possess the life history or evolutionary capacity to respond to anthropogenic change rapidly enough to buffer the impending consequences of altered landscapes.
+
+The Mojave Desert Tortoise represents a difficult subject for studying evolutionary change. Due to the lengthiness of generation times, any adaptations the species incurs may not be observable over a human lifespan, and decidedly not over the course of a 5-10 year study. We use spatial agent-based modelling to simulate *G. agassizii* populations over a millennia to predict how gene flow may change under future fragmented conditions and, ultimately, predict the evolutionary capacity of the species.
