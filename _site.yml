@@ -1,4 +1,4 @@
-name: "MDTPred-Prey"
+name: "GHYSite"
 output_dir: docs
 exclude: ["Data", "R_Scripts", "Manuscript", "Environmental_Layers", "PredPrey.db", 'README']
 navbar:
